@@ -1,0 +1,23 @@
+Imgdata[120][188]   //即采集到的原图
+
+#define PER_IMG Imgdata 
+
+#define tmImage Imgdata   //tmImage大津法使用求阈值
+
+PER_IMG[120][188] 逆透视或不逆透视--->>PerImg_ip[120][188]
+
+#define ImageUsed *PerImg_ip
+
+#define showImg PerImg  //showImg为最后显示的图
+
+
+
+original_image              >>
+Imgdata ---->> PER_IMG ----逆透视--->> *PerImg_ip ---->> ImageUsed
+
+二值化后 PerImg----->>非黑即白(bin_image)
+
+show_PerImg后 PerImg[i][j]=ImageUsed[i][j]
+
+
+63  256
