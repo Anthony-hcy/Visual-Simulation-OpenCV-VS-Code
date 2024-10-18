@@ -1,7 +1,16 @@
 # Visual Simulation-OpenCV-VS Code
 
 #### 介绍
+
 VS Code协同OpenCV的视觉仿真
+
+#### 说明
+
+通过更轻巧的VS Code编译器来使用OpenCV
+
+Visual Studio较为臃肿
+
+只需要完成以下软件的安装和文件的配置即可
 
 #### 安装教程
 
