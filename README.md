@@ -23,4 +23,3 @@ https://blog.csdn.net/2301_76911910/article/details/139509421?spm=1001.2014.3001
 2.  OpenCV
 3.  CMake
 4.  MinGW
-
